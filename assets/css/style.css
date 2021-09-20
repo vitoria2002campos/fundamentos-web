@@ -1,10 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image:url(/assets/img/pexels-zaksheuskaya-1616403.jpg)
+;
+}
+
 /* Estilos da pagina index.html*/
+
+.p{
+    color: white;
+    font-size:23px;
+    background-color: rgba(202, 179, 195, 0.253);
+}
+
 .container{
     display: flex;
     flex-flow:row;
     justify-content: center;
     align-items: center;
+   
 }
+
+
 
 
 .justify{
@@ -17,20 +37,7 @@
     text-align: center;
 }
 
-#menu li {
-    display: inline;
-    padding:30px;
-}
 
-#menu li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-#menu li a:hover{
-    color:darkorchid;
-}
 
 .p-30{
     padding:30px ;
@@ -54,10 +61,63 @@
 
 .mb-50{
     margin-bottom:50px;
+    
 }
+
+.testbutton {
+    font-weight: bold;
+    font-family: 'Amiri', serif;;
+    color: #F7F8FF !important;
+    font-size: 20px;
+    
+    box-shadow: 0px 0px 1px #BEE2F9;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 0px solid #23232e;
+    background: #23232e;
+    margin-left: 40px;
+  }
+  .testbutton:hover {
+    color: #23232e !important;
+    background: #FFFFFF;
+  }
+.link{
+    text-decoration:none
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #23232e;
+    height: 80px;
+    border-radius: 0px;
+    
+}
+#vitoria{
+    color:white ;
+    letter-spacing: 5px;
+}
+
+#vitoria:hover{
+    color: #f54396 ;
+    
+      .center{
+        text-align: center
+    }
+    
+
+   
+        
+
+
 
 /* Estilos dapágina contato.html*/
 
 .ml-50{
-    margin-left:50px;
+    margin-left:50;
+    
+    text-align:left 
 }
