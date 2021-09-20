@@ -19,8 +19,9 @@ body{
 .container{
     display: flex;
     flex-flow:row;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    
    
 }
 
@@ -103,21 +104,13 @@ nav {
 
 #vitoria:hover{
     color: #f54396 ;
-    
-      .center{
-        text-align: center
+    text-align: center
     }
-    
-
-   
-        
 
 
-
-/* Estilos dapágina contato.html*/
-
-.ml-50{
-    margin-left:50;
-    
-    text-align:left 
+#frase{
+    text-align: center;
 }
+
+
+
